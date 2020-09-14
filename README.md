@@ -38,9 +38,3 @@ The input image can be of any number of words example:
 
 output is:
 ![](sentences/terminal_output.png)
-
-
-
-
-
-
