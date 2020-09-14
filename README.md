@@ -1,7 +1,13 @@
-# tesseract_model
-A very primitive form of original google tesseract which extracts texts (ONLY CAPITAL LETTERS) from an image and converts them to plain text
+# Tesseract_model
 
-REQUIREMENTS:
+## Introduction
+
+Tesseract is an optical character recognition engine for various operating systems which extracts texts from an image and converts them to plain text.
+
+This model is a very primitive form of the original google tesseract which extracts texts (ONLY CAPITAL LETTERS) from an image and converts them to plain text.
+
+## Modules/Library REQUIREMENTS:
+
   1) os
   2) numpy
   3) PIL
@@ -10,6 +16,8 @@ REQUIREMENTS:
   6) cropyble
   7) cv2
   8) shutil
+  
+## How To Run the script:
 
 NOTE1:- The trained model is not provided. So for the very first time run the script as it is. Once the model is trained:
                                           COMMENT OUT 'Train_Model' on line '65' and then run the script for further use.
