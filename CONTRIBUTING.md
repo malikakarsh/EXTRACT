@@ -48,4 +48,4 @@ git pull [--rebase] upstream <dev-branch>
 ```
 git push origin <topic-branch-name>
 ```
-7) Open a Pull Request with a clear title and description.
+## 7) Open a Pull Request with a clear title and description.
