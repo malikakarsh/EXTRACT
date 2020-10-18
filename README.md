@@ -1,8 +1,8 @@
-# Tesseract_model
+# EXTRACT
 
 ## Introduction
 
-Tesseract is an optical character recognition engine for various operating systems which extracts texts from an image and converts them to plain text.
+EXTRACT is an optical character recognition engine for various operating systems which extracts texts from an image and converts them to plain text.
 
 This model is a very primitive form of the original google tesseract which extracts texts (ONLY CAPITAL LETTERS) from an image and converts them to plain text.
 
