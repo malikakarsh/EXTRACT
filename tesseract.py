@@ -6,11 +6,11 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import VGG16
 from keras.layers import Dense,Flatten
 from keras.models import Sequential, load_model
-from cropyble import Cropyble
 import cv2
 import shutil
 import time
 import sys
+from cropyble import Cropyble
 
 location = input("Enter the location of the image : ")
 image = cv2.imread(location,0)
