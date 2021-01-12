@@ -2,7 +2,6 @@ import os
 import numpy as np
 from PIL import Image,ImageTk
 import PIL
-import sys
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import VGG16
 from keras.layers import Dense,Flatten
@@ -11,6 +10,7 @@ from cropyble import Cropyble
 import cv2
 import shutil
 import time
+import sys
 
 location = input("Enter the location of the image : ")
 image = cv2.imread(location,0)
