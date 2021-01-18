@@ -20,7 +20,9 @@ This model is a very primitive form of the original google tesseract which extra
 ## Features
  
 a)  Extracts text from input image
+
 b) Works on lowercase,uppercase, number ans special characters.
+
 c) Saves the output in output.txt to allow search.
 
 ## How To Run the script:
