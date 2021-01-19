@@ -2,6 +2,7 @@ import os
 import sys
 import shutil
 import time
+import cv2
 from cropyble import Cropyble
 import numpy as np
 from PIL import Image,ImageTk
@@ -10,7 +11,6 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import VGG16
 from keras.layers import Dense,Flatten
 from keras.models import Sequential, load_model
-import cv2
 
 
 location = input("Enter the location of the image : ")
