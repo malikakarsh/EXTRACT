@@ -2,12 +2,12 @@ import os
 import sys
 import shutil
 import time
+import cv2
+from cropyble import Cropyble
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import VGG16
 from keras.layers import Dense,Flatten
 from keras.models import Sequential, load_model
-import cv2
-from cropyble import Cropyble
 import numpy as np
 import PIL
 from PIL import Image,ImageTk
