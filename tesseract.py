@@ -1,3 +1,7 @@
+from keras.preprocessing.image import ImageDataGenerator
+from keras.applications import VGG16
+from keras.layers import Dense,Flatten
+from keras.models import Sequential, load_model
 import os
 import sys
 import shutil
@@ -7,10 +11,6 @@ from cropyble import Cropyble
 import numpy as np
 import PIL
 from PIL import Image,ImageTk
-from keras.preprocessing.image import ImageDataGenerator
-from keras.applications import VGG16
-from keras.layers import Dense,Flatten
-from keras.models import Sequential, load_model
 
 
 location = input("Enter the location of the image : ")
