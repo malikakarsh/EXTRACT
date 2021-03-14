@@ -1,7 +1,7 @@
 import os
 import sys
-import time
 import cv2
+import time
 import shutil
 import numpy as np
 import PIL
