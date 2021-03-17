@@ -1,9 +1,9 @@
 import os
 import sys
 import cv2
+import PIL
 import time
 import shutil
-import PIL
 import numpy as np
 from PIL import Image,ImageTk
 from keras.preprocessing.image import ImageDataGenerator
