@@ -3,8 +3,8 @@ import sys
 import cv2
 import time
 import shutil
-import numpy as np
 import PIL
+import numpy as np
 from PIL import Image,ImageTk
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import VGG16
